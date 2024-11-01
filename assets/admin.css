@@ -1,0 +1,8 @@
+.toplevel_page_gswpts-dashboard div#wpcontent {
+    padding-left: 0;
+}
+
+#toplevel_page_simpleform-dashboard li.current {
+	box-shadow: inset 4px 0 0 0 currentColor;
+	transition: box-shadow .1s linear;
+}

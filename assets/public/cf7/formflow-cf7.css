@@ -1,0 +1,68 @@
+/* Admin End CF7 Tab formflow design CSS  */
+.scf-card {
+    background: #fff;
+    width: 800px;
+    max-width: 100%;
+    min-height: 450px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 25px 5px rgba(169, 145, 212, 0.1);
+ }
+.scf-card .title {
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 2; 
+}
+
+.scf-card .row {
+    display: flex; 
+}
+.scf-card .row .col-40 {
+    width: 40%;
+    padding: 15px; 
+}
+.scf-card .row .col-60 {
+    width: 60%;
+    padding: 15px; 
+}
+
+.scf-card .row.button {
+    display: inline-block;
+    font-weight: 400;
+    color: #444;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    color: #fff;
+    background-color: #039BE5;
+    border-color: #039BE5;
+    padding: 0.6rem 1rem;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    min-width: 140px;
+    transition: opacity 0.15s ease-in-out; 
+}
+.button:hover {
+    opacity: 0.8; 
+}
+.button .feather {
+    width: 18px;
+    height: 22px;
+    margin-left: 4px; 
+}
+
+.success {
+    color: #13b955; 
+}
+
+.scf-card img {
+    max-width: 100%;
+    margin: auto; 
+}
+  

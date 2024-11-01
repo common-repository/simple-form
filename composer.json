@@ -1,0 +1,18 @@
+{
+    "name": "samiu/simple-form",
+    "description": "This is a WordPress plugin to create simple form",
+    "type": "project",
+    "license": "GPL v2 or later",
+    "autoload": {
+        "psr-4": {
+            "SIMPLEFORM\\": "./app"
+        }
+    },
+    "authors": [
+        {
+            "name": "sabbirsam",
+            "email": "61382787+sabbirsam@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
